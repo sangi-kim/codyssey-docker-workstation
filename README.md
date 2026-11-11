@@ -183,7 +183,7 @@ C:\Users\mn030\codyssey-docker-workstation\practice
 
 ## 6) 권한 실습
 
-PowerShell에는 `chmod`와 rwx 출력이 없으므로, 리눅스 환경이 필요한 이 실습은 Docker의 `ubuntu` 컨테이너 안에서 수행했다. 이 과정이 `ubuntu` 컨테이너 실행 및 내부 명령(`pwd`, `ls`, `echo`) 실습도 겸한다.
+PowerShell에는 "chmod"와 rwx 출력이 없으므로, 리눅스 환경이 필요한 이 실습은 Docker의 "ubuntu" 컨테이너 안에서 수행했다. 이 과정이 "ubuntu" 컨테이너 실행 및 내부 명령("pwd", "ls", "echo") 실습도 겸한다.
 
 ```powershell
 PS C:\Users\mn030> docker run -it --name u1 ubuntu bash
